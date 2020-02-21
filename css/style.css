@@ -1,0 +1,184 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: black
+}
+h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #EC4B75;
+}
+section{
+    height: 1000px;
+    overflow: hidden;
+}
+/* top bar section */
+.half_width{
+    width: 36%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 4%;
+}
+.half_width div{
+    position: relative;
+    top: 80px;
+    left: 149px;
+}
+.half_width img{
+    width: 100%;
+}
+.top_banner{
+    background-image: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+}
+.link_button{
+    text-decoration: none;
+    background-color: #EC4B75;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    position: relative;
+    top: 10px;
+}
+.link_button:hover{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(230, 15, 80), rgb(142, 13, 202));
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    position: relative;
+    top: 10px;
+}
+.link_button a{
+    position: relative;
+    top: 10px;
+}
+.half_width div h3{
+    position: relative;
+    top: 31px;
+}
+.top_details{
+    position: absolute;
+    top: 246px;
+    overflow: hidden;
+}
+/* biography section goes on  */
+.half-width{
+    width: 36%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+    letter-spacing: 1px;
+    line-break: 2px;
+}
+.biography_details{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.biography_all{
+    margin-left: 137px;
+    margin-top: 60px;
+}
+.biography{
+    background-image: url("../images/biography-bg.png");
+    display: block;
+    position: absolute;
+}
+
+/* latest work */
+.latest_works{
+    margin-top: 1000px;
+    height: 740px;
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.activities .work_one_width{
+    width: 300px;
+    height: 250px;
+}
+.work_one_width img{
+    height: 100%;
+}
+.work_one_width:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 40px black;
+}
+.work_one_width{
+    float: left;
+    margin-left: 62px;
+}
+.latest_works_sub{
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 176px;
+    display: block;
+}
+.latest_works_sub h2{
+    color: black;
+    position: relative;
+    bottom: 30px;
+}
+/* last section */
+.asking-question-inner{
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+.asking-section{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.asking-details {
+    margin-top: 88px;
+}
+.l-button-inner {
+    color: white;
+    padding:20px;
+    border: none;
+    border-radius: 10px;
+    background: #EC4B75;
+}
+.l-button-inner p {
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.l-button-inner h4 {
+    font-size: 20px;
+    margin: 0;padding: 0;
+}
+.l-button{
+    margin-top: 46px;
+}
+.l-button-inner:hover{
+    background: linear-gradient(45deg, rgb(230, 15, 80), rgb(142, 13, 202));
+    cursor: pointer;
+}
+/* footer section */
+footer{
+    text-align: center;
+}
+footer p{
+    color: rgb(153, 153, 153);
+}
