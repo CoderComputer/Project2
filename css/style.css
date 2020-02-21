@@ -238,6 +238,13 @@ ul{
     border-radius: 10px;
     background: linear-gradient(45deg, rgb(230, 15, 80), rgb(142, 13, 202));
 }
+.l-button-inner:hover{
+    color: white;
+    padding:20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgb(230, 15, 80), rgb(45, 7, 63));
+}
 .l-button-inner p {
     font-size: 15px;
     color: white;
